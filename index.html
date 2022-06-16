@@ -25,6 +25,10 @@
             margin-top: 40px;
             margin-left: 250px;
         }
+        #search:hover{
+            background-color: rgb(226, 245, 20);
+            color: rgb(19, 18, 16);
+        }
 
         #logo {
             width: 40px;
@@ -63,6 +67,7 @@
             alt="" onclick="search()">
         <img id="logo1" src="https://th.bing.com/th/id/OIP.BBaVLTiaFEUqgWUYFGkvLQAAAA?pid=ImgDet&rs=1" alt="">
     </div>
+    <hr/>
     <div id="video">
 
 
@@ -96,7 +101,7 @@
 
                 let name=document.createElement("p")
                 name.innerText=title
-                // console.log(title)
+               
 
                 let iframe=document.createElement("iframe")
                 iframe.src=`https://www.youtube.com/embed/${videoId}`
